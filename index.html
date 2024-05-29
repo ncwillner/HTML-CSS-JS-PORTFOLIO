@@ -37,15 +37,24 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="Nils Willner Profile Picture">
+            <img src="./assets/IMG_20190418_120440.jpg" alt="Nils Willner Profile Picture">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm, </p>
             <h1 class="title">Nils Willner</h1>
             <p class="section__text__p2">Software Engineer</p>
-            <div class="btn.container">
-                <button class="btn btn.color-2" onclick="window.open('./assets/resume-example.pdf')">
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"
+                >
+                Download CV
                 </button>
+                <button class="btn btn-color-1" onclick= "location.href = './#contact'"
+                >
+                Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="window.open('https://www.linkedin.com/in/ncwillner/', '_blank')">
             </div>
         </div>
     </section>
